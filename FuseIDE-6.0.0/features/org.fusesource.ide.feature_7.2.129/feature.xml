@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.fusesource.ide.feature"
+      label="Red Hat JBoss Fuse Plugins for Eclipse 6.0"
+      version="7.2.129"
+      provider-name="Red Hat Inc.">
+
+   <description url="http://fusesource.com/products/fuse-ide/">
+      Red Hat JBoss Fuse Plugins for Eclipse lets you work with Fuse and Apache ActiveMQ, Camel,
+CXF, Karaf &amp; ServiceMix.
+You can view, create and edit Enterprise Integration Patterns,
+browse endpoints and routes, drag and drop messages, trace message
+flows, deploy your code to Fuse ESB and 
+browse and visualise runtime processes over JMX and Fuse Fabric.
+   </description>
+
+   <copyright url="http://redhat.com/">
+      JBoss, Home of Professional Open Source\nCopyright (c) Red Hat,
+Inc., and individual contributors as indicated\nby the @authors
+tag, 2013. See the copyright.txt in the distribution\nfor a full
+listing of individual contributors.
+   </copyright>
+
+   <license url="license.html">
+      Red Hat, Inc. licenses these features and plugins to you under
+certain open source licenses (or aggregations of such licenses),
+which in a particular case may include the Eclipse Public License,
+the GNU Lesser General Public License, and/or certain other open
+source licenses. For precise licensing details, consult the corresponding
+source code, or contact Red Hat Legal Affairs, 1801 Varsity Drive,
+Raleigh NC 27606 USA.
+   </license>
+
+   <url>
+      <update label="Red Hat JBoss Fuse Plugins for Eclipse Update Site" url="http://repo.fusesource.com/ide/"/>
+      <discovery label="m2eclipse" url="http://m2eclipse.sonatype.org/sites/m2e/"/>
+      <discovery label="Eclipse Indigo" url="http://download.eclipse.org/releases/indigo"/>
+      <discovery label="Eclipse Juno" url="http://download.eclipse.org/releases/juno"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.jst.server.tomcat.core"/>
+      <import plugin="org.eclipse.jst.server.tomcat.ui"/>
+   </requires>
+
+   <plugin
+         id="org.apache.commons.pool"
+         download-size="108"
+         install-size="257"
+         version="1.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.javax-inject"
+         download-size="10"
+         install-size="19"
+         version="1.0.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean.spring"
+         download-size="128"
+         install-size="281"
+         version="3.12.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.annotation"
+         download-size="25"
+         install-size="55"
+         version="1.1.0.v201108011116"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.net"
+         download-size="269"
+         install-size="518"
+         version="3.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="log4j.over.slf4j"
+         download-size="19"
+         install-size="31"
+         version="1.7.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.apache.xbean.spring"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.apache.commons.net"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.mina.core"
+         download-size="630"
+         install-size="1328"
+         version="2.0.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.cheatsheets"
+         download-size="13"
+         install-size="66"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jvmmonitor.core"
+         download-size="224"
+         install-size="252"
+         version="7.2.129"/>
+
+   <plugin
+         id="org.fusesource.ide.jvmmonitor.tools"
+         download-size="40"
+         install-size="118"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jvmmonitor.ui"
+         download-size="728"
+         install-size="813"
+         version="7.2.129"/>
+
+   <plugin
+         id="com.sun.jersey.jersey-core"
+         download-size="451"
+         install-size="911"
+         version="1.12.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jersey.jersey-server"
+         download-size="582"
+         install-size="1191"
+         version="1.12.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jersey.jersey-client"
+         download-size="127"
+         install-size="304"
+         version="1.12.0"
+         unpack="false"/>
+
+   <plugin
+         id="commons-management"
+         download-size="15"
+         install-size="34"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-core"
+         download-size="2184"
+         install-size="4626"
+         version="2.10.0.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.asm"
+         download-size="51"
+         install-size="104"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.context"
+         download-size="817"
+         install-size="1665"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.expression"
+         download-size="174"
+         install-size="364"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.beans"
+         download-size="578"
+         install-size="1317"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="1846"
+         install-size="4088"
+         version="13.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.context.support"
+         download-size="104"
+         install-size="210"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.core"
+         download-size="440"
+         install-size="858"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="66"
+         install-size="138"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.aopalliance"
+         download-size="11"
+         install-size="19"
+         version="1.0.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.aop"
+         download-size="324"
+         install-size="656"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.aspects"
+         download-size="49"
+         install-size="142"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.osgi.core"
+         download-size="354"
+         install-size="762"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.osgi.extender"
+         download-size="117"
+         install-size="230"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.osgi.extensions.annotations"
+         download-size="23"
+         install-size="53"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.osgi.io"
+         download-size="35"
+         install-size="67"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.transaction"
+         download-size="239"
+         install-size="483"
+         version="3.1.3.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-spring"
+         download-size="217"
+         install-size="670"
+         version="2.10.0.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-blueprint"
+         download-size="159"
+         install-size="449"
+         version="2.10.0.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-core-osgi"
+         download-size="39"
+         install-size="77"
+         version="2.10.0.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="scala-library"
+         download-size="8721"
+         install-size="24166"
+         version="2.9.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.scalate.scalate-util"
+         download-size="275"
+         install-size="519"
+         version="1.5.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.insight.insight-log"
+         download-size="37"
+         install-size="67"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-core-asl"
+         download-size="226"
+         install-size="440"
+         version="1.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-mapper-asl"
+         download-size="762"
+         install-size="1848"
+         version="1.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-jaxrs"
+         download-size="17"
+         install-size="41"
+         version="1.9.10"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.fabric-linkedin-zookeeper"
+         download-size="1071"
+         install-size="2069"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-jms_1.1_spec"
+         download-size="31"
+         install-size="49"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-j2ee-management_1.1_spec"
+         download-size="19"
+         install-size="26"
+         version="1.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-annotation_1.0_spec"
+         download-size="12"
+         install-size="20"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.fabric-activemq-facade"
+         download-size="56"
+         install-size="113"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.fabric-camel-facade"
+         download-size="31"
+         install-size="57"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.fabric-servicemix-facade"
+         download-size="9"
+         install-size="14"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.nmr.api"
+         download-size="29"
+         install-size="45"
+         version="1.5.0.fuse-00-39"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.nmr.management"
+         download-size="31"
+         install-size="70"
+         version="1.5.0.fuse-00-39"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="107"
+         install-size="204"
+         version="1.0.1.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.blueprint"
+         download-size="434"
+         install-size="942"
+         version="1.0.1.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.proxy.api"
+         download-size="14"
+         install-size="24"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.proxy.impl"
+         download-size="81"
+         install-size="160"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.jmx.core"
+         download-size="102"
+         install-size="215"
+         version="1.0.1.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="osgi.enterprise"
+         download-size="346"
+         install-size="824"
+         version="4.2.0.201003190513"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.camel-tooling-util"
+         download-size="275"
+         install-size="522"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.tooling-jclouds-all"
+         download-size="14671"
+         install-size="28291"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.fabric.tooling-fabric-all"
+         download-size="1360"
+         install-size="2681"
+         version="7.2.0.redhat-024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.commons-io"
+         download-size="107"
+         install-size="197"
+         version="1.4.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.core"
+         download-size="74"
+         install-size="170"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.ui"
+         download-size="219"
+         install-size="446"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.local"
+         download-size="31"
+         install-size="101"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.fabric"
+         download-size="787"
+         install-size="1386"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.fabric.activemq"
+         download-size="55"
+         install-size="152"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.fabric.camel"
+         download-size="94"
+         install-size="228"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.fabric.servicemix"
+         download-size="24"
+         install-size="84"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.zk.core"
+         download-size="220"
+         install-size="440"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.zk.jmx"
+         download-size="247"
+         install-size="445"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.zk.zookeeper"
+         download-size="620"
+         install-size="2241"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.graph"
+         download-size="36"
+         install-size="109"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.activemq.activemq-osgi"
+         download-size="9940"
+         install-size="23621"
+         version="5.8.0.redhat-60024"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.xmlpull"
+         download-size="14"
+         install-size="29"
+         version="1.1.3.1_2"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.branding"
+         download-size="332"
+         install-size="648"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.catalogs"
+         download-size="72"
+         install-size="740"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.commons"
+         download-size="300"
+         install-size="586"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.deployment"
+         download-size="73"
+         install-size="170"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.editor"
+         download-size="851"
+         install-size="1283"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.help"
+         download-size="13563"
+         install-size="16978"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.launcher"
+         download-size="31"
+         install-size="100"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.launcher.ui"
+         download-size="71"
+         install-size="170"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.maven"
+         download-size="14"
+         install-size="67"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model"
+         download-size="774"
+         install-size="1172"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.preferences"
+         download-size="18"
+         install-size="74"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.project"
+         download-size="34"
+         install-size="98"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.server.karaf.core"
+         download-size="57"
+         install-size="155"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.server.karaf.ui"
+         download-size="72"
+         install-size="164"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.server.karaf.view"
+         download-size="19"
+         install-size="77"
+         version="7.2.129"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="38"
+         install-size="69"
+         version="1.6.4.v20120130-2120"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="25"
+         install-size="46"
+         version="1.7.0"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.simple"
+         download-size="9"
+         install-size="15"
+         version="1.7.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="258"
+         install-size="532"
+         version="1.0.0.v20111214-2030"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="354"
+         install-size="682"
+         version="1.0.0.v20111214-2030"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="14"
+         install-size="23"
+         version="1.0.0.v20120123-1500"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services"
+         download-size="69"
+         install-size="112"
+         version="3.3.0.v20110513"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.cm"
+         download-size="60"
+         install-size="118"
+         version="1.0.300.v20110502"
+         unpack="false"/>
+
+</feature>

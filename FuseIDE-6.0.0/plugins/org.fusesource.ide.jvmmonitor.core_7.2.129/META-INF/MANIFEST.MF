@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.fusesource.ide.jvmmonitor.core,org.fusesource.ide.
+ jvmmonitor.core.cpu,org.fusesource.ide.jvmmonitor.core.dump,org.fuses
+ ource.ide.jvmmonitor.core.mbean,org.fusesource.ide.jvmmonitor.interna
+ l.core;x-friends:="org.fusesource.ide.jvmmonitor.core.tests"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: jvmmonitor-core.jar
+Built-By: root
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.filesystem,o
+ rg.eclipse.jdt.core
+Bundle-Vendor: %providerName
+Bundle-Version: 7.2.129
+Build-Jdk: 1.6.0_22
+Bundle-Activator: org.fusesource.ide.jvmmonitor.core.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.fusesource.ide.jvmmonitor.core;singleton:=tru
+ e
+Archiver-Version: Plexus Archiver
+
